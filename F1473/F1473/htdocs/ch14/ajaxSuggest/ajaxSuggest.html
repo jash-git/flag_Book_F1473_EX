@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset="utf-8"/>
+<title>ajaxSuggest.html</title>
+<script src="jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+   $("#txtSearch").bind('keyup', function() {
+      // 取得表單欄位值
+      var value = $('#txtSearch').val();
+      // 使用HTTP GET方法送出Ajax請求
+      $.ajax({
+        type: 'GET',
+        url:  'getSuggest.php',
+        data: { search : value }, 
+        success: function(data) {
+          // 顯示傳回的資料
+          var str, keyword;
+          var result = document.getElementById("result");
+          result.innerHTML = "";
+          // 顯示所有JSON陣列的關鍵字清單
+          $.each(data, function (key, val) {
+             str = "<div onmouseover='suggestOver(this)' ";
+             str += "onmouseout='suggestOut(this)' ";
+             str += "onclick='setSearch(this.innerText)' ";
+             str += "class='Link'>" + val + "</div>";
+             result.innerHTML += str;
+          });        
+        } 
+      });
+      return false;
+   });
+});
+// 滑鼠按一下, 即可更改欄位內容
+function setSearch(value) {
+   document.getElementById("txtSearch").value = value;
+   document.getElementById("result").innerHTML = "";
+}
+// 指定滑鼠移過的樣式
+function suggestOver(tag) {
+   tag.className = "LinkOver";
+}
+// 指定滑鼠移出的樣式
+function suggestOut(tag) {
+   tag.className = "Link";
+}
+</script>
+<style type="text/css">
+body {
+   font: 11px;
+}
+.Link {
+   background-color: #FFFFFF;   
+   padding: 2px 6px 2px 6px;
+}
+.LinkOver {
+   background-color: #3366CC;
+   padding: 2px 6px 2px 6px;
+}
+#result {
+   position: absolute; 
+   background-color: #FFFFFF; 
+   text-align: left; 
+   border: 1px solid #000000;			
+}		
+</style>
+</head>
+<body>
+<form>
+<input type="TEXT" id="txtSearch" name="txtSearch" autocomplete="off"/>
+<input type="SUBMIT" value="搜尋"/><br/>
+<div id="result"></div>
+</form>
+</body>
+</html>

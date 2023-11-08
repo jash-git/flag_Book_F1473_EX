@@ -1,0 +1,287 @@
+ 
+[frmMain]
+fraToolBar3.Caption=删除
+cmdDeleteLine.Caption=连接线　
+cmdDeleteBlock.Caption=区块　
+chk_LOAD_GUI.Caption=载入 GUI
+fraToolBar2.Caption= 连接与编辑
+chkCONTINUED_CONNECTION.Caption=自动连接区块　
+cmdEdit.Caption=编辑　
+cmdConnect.Caption=连接　
+fraDebug.Caption=流程图解译运行工具列
+cmdEditor.Caption=代码编辑器
+cmdStack.Caption=堆叠
+cmdVars.Caption=变数
+lblDelay.Caption=延迟:150
+mnuFile.Caption=文件
+mnuNew.Caption=添加流程图专案
+mnuLoad.Caption=开启流程图专案...
+mnuExamplesMenu.Caption=流程图专案范例
+mnuExample(0).Caption=第一个流程图程式
+mnuExample(1).Caption=字串比较
+mnuExample(2).Caption=条件执行
+mnuExample(3).Caption=字串连接
+mnuExample(4).Caption=简单回圈 1
+mnuExample(5).Caption=简单回圈 2
+mnuExample(6).Caption=函数呼叫
+mnuExample(7).Caption=阶层计算 (回圈)
+mnuExample(8).Caption=阶层计算 (递回)
+mnuExample(9).Caption=指数计算 (递回)
+mnuExample(10).Caption=测试荧幕卷动
+mnuExample(11).Caption=简单窗口
+mnuExample(12).Caption=简单的绘图窗口
+mnuExample(13).Caption=网页影像地图工具
+mnuMakeExecutable.Caption=汇出建立运行文件...
+mnuSave.Caption=保存流程图专案
+mnuSaveAs.Caption=保存流程图专案成...
+mnuExit.Caption=结束
+mnuChangeShape.Caption=编辑
+mnuChangeBackColor.Caption=更改背景色彩
+mnuChangeTextColor.Caption=更改文字色彩
+mnuChangeBorderColor.Caption=更改框线色彩
+mnuChangeSize.Caption=更改尺寸
+mnuSetStraightLine.Caption=使用直线的连接线
+mnuSwitchFoldLineDirection.Caption=切换L型线的方向
+mnuSetUTypeLine.Caption=使用U型线连接
+mnuEditUTypeLine.Caption=编辑U型线的偏移量
+mnuConvertConnector2ULine.Caption=将连接点转换成U型线
+mnuAddCaptionToLine.Caption=新增连接线标题文字
+mnuDelete.Caption=删除
+mnuDeleteLine.Caption=删除连接线
+mnuDeleteBlock.Caption=删除区块
+mnuHelp.Caption=说明
+mnuHelpToStudent.Caption=说明主题
+mnuAbout.Caption=关于
+mnuContextMenu.Caption=快显功能表
+mnuCConnectBlock.Caption=连接区块
+mnuCDeleteLine.Caption=删除连接线
+mnuCDeleteBlock.Caption=删除区块
+mnuCSwitchFoldLineDirection.Caption=切换L型线的方向
+mnuCSetUTypeLine.Caption=使用U型线连接
+chkCONTINUED_CONNECTION.ToolTipText=自动连接
+chkPause.ToolTipText=暂停
+cmdNextStep.ToolTipText=逐步执行
+cmdStack.ToolTipText=显示堆叠窗口
+cmdVars.ToolTipText=显示变数窗口
+cmdScreen.ToolTipText=显示命令提示字元窗口
+cmdEditor.ToolTipText=启动程式码编辑器
+cmdRun.ToolTipText=运行
+cmdStop.ToolTipText=停止
+cmdWindow.ToolTipText=窗口
+cmdFunction.ToolTipText=函数
+cmdIntersection.ToolTipText=连接点
+cmdJunction.ToolTipText=条件
+cmdOutput.ToolTipText=输出
+cmdInput.ToolTipText=输入
+cmdAction.ToolTipText=动作
+cmdEnd.ToolTipText=结束
+cmdStart.ToolTipText=开始
+
+
+[frmSize]
+frmSize.Caption=更改尺寸
+Label2.Caption=高度:
+Label1.Caption=宽度:
+
+
+[frmOffset]
+frmOffset.Caption=编辑偏移量
+Label1.Caption=偏移量:
+chkClockwise.Caption=顺时钟
+
+
+[frmScreen]
+frmScreen.Caption=命令提示字元
+
+ 
+[frmDlgOutput]
+frmDlgOutput.Caption=输出
+chkNewLine.Caption=不换行
+cmdOK.Caption=确定
+lblVarName.Caption=变数名称:
+lblMessage.Caption=讯息文字:
+
+ 
+[frmVars]
+frmVars.Caption=变数
+
+ 
+[frmDlgAction]
+frmDlgAction.Caption=动作
+cmdOK.Caption=确定
+lblDefValue.Caption=变数值:
+lblDefVarName.Caption=变数名称:
+lblDBname.Caption=资料库:
+lblSQL.Caption=SQL指令:
+lblString1.Caption=字串 1
+lblString2.Caption=字串 2
+lblStringOperation.Caption=运算子
+lblStringResult.Caption=储存至变数:
+lblMathResult.Caption=储存至变数:
+lblMathOperation.Caption=运算子
+lblMathOp2.Caption=运算元 2
+lblMathOp1.Caption=运算元 1
+
+ 
+[frmDlgIf]
+frmDlgIf.Caption=条件运算式
+cmdOK.Caption=确定
+
+ 
+[frmStack]
+frmStack.Caption=堆叠
+
+ 
+[frmDlgFunction]
+frmDlgFunction.Caption=函数
+cmdOK.Caption=确定
+lblPar2.Caption=参数2:
+lblFuncName.Caption=函数名称:
+lblPar1.Caption=参数1:
+lblResult.Caption=储存至变数:
+
+ 
+[frmDlgInput]
+frmDlgInput.Caption=输入
+cmdOK.Caption=确定
+lblMessage.Caption=提示文字:
+lblVarName.Caption=变数名称:
+
+ 
+[frmDlgWindow]
+frmDlgWindow.Caption=窗口编辑器
+cmdOK.Caption=确定
+fraEvents.Caption=事件
+lblFunc2.Caption=右Click:
+lblFunc1.Caption=左Click:
+fraProperties.Caption= 属性
+lblName.Caption=名称: 
+lblText.Caption=标题: 
+cmdDelete.Caption=删除
+
+ 
+[frm_mBox]
+frm_mBox.Caption=讯息
+cmdOK.Caption=确定
+
+
+[frmDlgGeneral]
+frmDlgGeneral.Caption=开始选项
+cmdOK.Caption=确定
+lblExample.Caption=范例:   a,b,c 
+lblDescription.Caption=区域变数会在执行流程前先储存在堆叠, 流程结束就回存其值.
+lblLocalVars.Caption=区域变数名称:
+
+ 
+[frmAbout]
+frmAbout.Caption=关于
+lblUserName.Caption=FREEWARE免费软体
+cmdOK.Caption=确定
+cmdSysInfo.Caption=系统资讯...
+Label1.Caption=多国语言版Copyright 2010-2019 by 陈会安  hueyan@ms2.hinet.net
+lblVersion.Caption=版本
+
+
+[frmMakeExecutable]
+frmMakeExecutable.Caption=汇出建立执行档
+cmdGetStartFlow.Caption=...
+cmdCancel.Caption=取消
+cmdMake.Caption=建立
+lblStartUpFlow.Caption=选择开始的流程图专案档:
+
+
+[Strings]
+0001=错误载入流程图范例: 
+0002=错误: 
+0003=在堆叠包含错误资料从IP传回: 
+0004=在堆叠包含错误资料从CS传回: 
+0005=timerRunner_Timer()未知动作!: 
+0006=timerRunner_Timer(). 产生错误: 
+0007=缺少运算元 :
+0008=没有右括号 ) : 
+0009=参数需要是整数 : 
+0010= 有错误的 FROM
+0011=已经连接!
+0012= 有错误的 TO
+0013=两个物件应该被选择!
+0014=堆叠已满产生溢位 - STACK OVERFLOW!
+0015=堆叠是空的 - STACK IS EMPTY!
+0016=  所有在此专案中使用的[.fpp]档案 (包含函数) 
+0017=.exe] 和 [
+0018=.ini]档案的同目录.
+0019=请注意: 
+0020= 需要复制至 [
+0021=没有选择区块!
+0022=无法编辑!
+0023=对不起! 编辑功能并不支援函数: 
+0024=错误! 程式码编辑器找不到:
+0025=请先停止目前流程的执行!
+0026=已经有YES和NO连接!
+0027=请输入连接线标题文字: 
+0028=两个物件应该被连接!
+0029=这并不是流程图档案!
+0030=错误载入: 
+0031=流程图专案: 
+0032= 尚未储存!
+0033=是否储存变更?
+0034=储存变更?
+0035=储存档案错误: 
+0036=逐步执行
+0037=延迟
+0038=错误的函数呼叫 - 无法从堆叠读取参数.
+0039=输入
+0040=第1个比较运算式有错误!
+0041=第2个比较运算式有错误!
+0042=第1个比较运算式有错误!
+0043=第2个比较运算式有错误!
+0044=无法载入函数: 
+0045=函数没有连接!
+0046=程式成功终止.
+0047=无法传回呼叫的函数
+0048=已经有一条出去的连接线!
+0049=程式码: 
+0050=描述: 
+0051=错误代码: 
+0052=太多右括号 ) : 
+0053=错误计算运算式, 因为运算式 : 
+0054= 是常数...
+0055=关于 
+0056=fChart流程图解译教学工具
+0057=变数: 
+0058= - 没有定义!
+0059=无法载入函数: 
+0060=物件指定叙述目前尚未支援!
+0061=无法执行: 
+0062=此视窗的属性无法读取!
+0063=物件名称: 
+0064=并不存在目前的视窗.
+0065=属性不存在!
+0066=此视窗的属性无法读取!
+0067=并不存在此视窗.
+0068=属性无法读取!
+0069=错误的物件定义: 
+0070=区块: 
+0071= - 不存在!
+0072= - 没有连接!
+0073= - 没有连接至: 
+0074=无法删除连接的物件.
+0075=开始
+0076=结束
+0077=输出-换行
+0078=输出-不换行
+0079=输入
+0080=视窗
+0081=目前变数值:
+0082=之前变数值:
+0083=没有逻辑运算子
+0084=定义变数
+0085=算术运算子
+0086=字串运算子
+0087=错误! 选取的符号不是连接点
+0088=错误! 连接点的连接线无法转成U型线
+0089=错误! 连接点出去的连接线不是L型线
+0090=错误! 连接点进入的连接线不是直线
+0091=请输入U型线的位移量(至少20)
+0092=使用U型线连接
+0093=连接线不是U型连接线
+0094=结束符号不能有出去的连接线

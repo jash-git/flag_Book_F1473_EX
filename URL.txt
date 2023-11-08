@@ -1,0 +1,29 @@
+新觀念 PHP8+MySQL+AJAX 網頁程式範例教本 第六版 書本範例下載
+
+資料來源: https://www.flag.com.tw/books/product_s/F1473
+https://www.flag.com.tw/VIP/register#F1473
+
+書籍目錄
+第一篇 PHP與網頁設計的基礎
+第 1 章 PHP基礎與開發環境的建立 - PHP安裝套件XAMPP
+第 2 章 建立第一個PHP程式 – 使用VS Code編輯與執行PHP程式
+第 3 章 HTML5與CSS3實務 – 建立HTML5表單
+第二篇 PHP程式設計
+第 4 章 變數、資料型態和運算子
+第 5 章 流程控制
+第 6 章 函數與錯誤處理
+第 7 章 陣列與字串
+第三篇 建立PHP網站
+第 8 章 PHP狀態管理 – 建立購物車(表單處理、Session、Cookie)
+第 9 章 伺服端檔案與電子郵件處理 – 留言簿與訪客計數
+第四篇 PHP與MySQL建立網頁資料庫
+第 10 章 MySQL資料庫系統的基本使用
+第 11 章 PHP與MySQL建立網頁資料庫 – 網站登入
+第 12 章 SQL結構化查詢語言 – 網頁通訊錄
+第五篇 PHP進階實務
+第 13 章 物件導向與例外處理– 物件導向、例外處理、網路商店與class.Cart.php購物車
+第 14 章 AJAX、JSON與REST API – CRUD操作的REST API
+第六篇 PHP網站的專案開發
+第 15 章 專案開發：CMS內容管理系統
+第 16 章 專案開發：航空公司訂票系統
+第 17 章 專案開發：使用Laravel的MVC框架

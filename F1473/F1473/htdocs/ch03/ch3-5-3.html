@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>ch3-5-3.html</title>
+</head>
+<body>
+<form name="info" method="post" action="ch8-4-4.php">
+性別: 
+<input type="radio" name="Gender" 
+             value="male" checked="True"/>男
+<input type="radio" name="Gender" 
+             value="female"/>女<br/>
+電腦系統: 
+<select name="Computer">
+   <option value="PC" selected="True">PC</option>
+   <option value="MAC">MAC</option>
+</select><br/>
+瀏覽器:
+<input type="checkbox" name="GC" 
+       checked="True" />Chrome
+<input type="checkbox" name="SF"/>Safari
+<input type="checkbox" name="FF"/>Firefox<br/>
+推薦網站: <br/>
+<select name="Webs[]" size="4" multiple="True">
+  <option value="w1" selected="True">Yahoo!奇摩</option>
+  <option value="w2">PC Home Online</option>
+  <option value="w3">中華電信Hinet</option>
+  <option value="w4">Google台灣</option>
+</select>
+<input type="submit" value="送出"/>
+</form>
+</body>
+</html>

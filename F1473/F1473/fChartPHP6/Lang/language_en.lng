@@ -1,0 +1,287 @@
+
+[frmMain]
+fraToolBar3.Caption=Delete
+cmdDeleteLine.Caption=Connect
+cmdDeleteBlock.Caption=Block
+chk_LOAD_GUI.Caption=Load GUI
+fraToolBar2.Caption= Connect and Edit
+chkCONTINUED_CONNECTION.Caption=Auto Connected
+cmdEdit.Caption=Edit
+cmdConnect.Caption=Connect
+fraDebug.Caption=fChart Execution Toolbar
+cmdEditor.Caption=Code Editor
+cmdStack.Caption=Stack
+cmdVars.Caption=Variable
+lblDelay.Caption=Delay: 150
+mnuFile.Caption=File
+mnuNew.Caption=New Flowchart Project
+mnuLoad.Caption=Load Flowchart Project...
+mnuExamplesMenu.Caption=Flowchart Project Examples
+mnuExample(0).Caption=The first flowchart program
+mnuExample(1).Caption=String Comparison
+mnuExample(2).Caption=Conditional Execution
+mnuExample(3).Caption=Concatenation of Strings
+mnuExample(4).Caption=Simple Loop 1
+mnuExample(5).Caption=Simple Loop 2
+mnuExample(6).Caption=Function Call
+mnuExample(7).Caption=Factorial Calculation (Loop)
+mnuExample(8).Caption=Factorial Calculation (Recursive)
+mnuExample(9).Caption=Exponential Calculation (Recursive)
+mnuExample(10).Caption=Test Screen Scrolling
+mnuExample(11).Caption=Simple Window
+mnuExample(12).Caption=Simple Drawing Window
+mnuExample(13).Caption=HTML Image Map Tool
+mnuMakeExecutable.Caption=Export to Executable File...
+mnuSave.Caption=Save Flowchart Project
+mnuSaveAs.Caption=Save Flowchart Project As...
+mnuExit.Caption=Exit
+mnuChangeShape.Caption=Edit
+mnuChangeBackColor.Caption=Change Background Color
+mnuChangeTextColor.Caption=Change Text Color
+mnuChangeBorderColor.Caption=Change Border Color
+mnuChangeSize.Caption=Change Size
+mnuSetStraightLine.Caption=Use a straight line
+mnuSwitchFoldLineDirection.Caption=Switch direction of L-shaped line
+mnuSetUTypeLine.Caption=U-shaped Connection
+mnuEditUTypeLine.Caption=Edit offset of U-shaped line
+mnuConvertConnector2ULine.Caption=Convert connector to U-shaped line
+mnuAddCaptionToLine.Caption=Add Line Caption Text
+mnuDelete.Caption=Delete
+mnuDeleteLine.Caption=Delete Connection Line
+mnuDeleteBlock.Caption=Delete Block
+mnuHelp.Caption=Help
+mnuHelpToStudent.Caption=Help Topics
+mnuAbout.Caption=About
+mnuContextMenu.Caption=Fast Display Menu
+mnuCConnectBlock.Caption=Connection Block
+mnuCDeleteLine.Caption=Delete Connection Line
+mnuCDeleteBlock.Caption=Delete Block
+mnuCSwitchFoldLineDirection.Caption=Switch direction of L-shaped line
+mnuCSetUTypeLine.Caption=U-shaped Connection
+chkCONTINUED_CONNECTION.ToolTipText=Automatically Connect
+chkPause.ToolTipText=Pause
+cmdNextStep.ToolTipText=Step by Step Execution
+cmdStack.ToolTipText=Show Stack Window
+cmdVars.ToolTipText=Show Variables Window
+cmdScreen.ToolTipText=Show Command Prompt Window
+cmdEditor.ToolTipText=Start Code Editor
+cmdRun.ToolTipText=Execute
+cmdStop.ToolTipText=Stop
+cmdWindow.ToolTipText=Window
+cmdFunction.ToolTipText=Function
+cmdIntersection.ToolTipText=Connection Point
+cmdJunction.ToolTipText=Condition
+cmdOutput.ToolTipText=Output
+cmdInput.ToolTipText=Input
+cmdAction.ToolTipText=Action
+cmdEnd.ToolTipText=End
+cmdStart.ToolTipText=Start
+
+
+[frmSize]
+frmSize.Caption=Change Size
+Label2.Caption=Height:
+Label1.Caption=Width:
+
+
+[frmOffset]
+frmOffset.Caption=Edit Offset
+Label1.Caption=Offset:
+chkClockwise.Caption=Clockwise
+
+
+[frmScreen]
+frmScreen.Caption=Command Prompt
+
+
+[frmDlgOutput]
+frmDlgOutput.Caption=Output
+chkNewLine.Caption=No Line Feed
+cmdOK.Caption=OK
+lblVarName.Caption=Variable Name:
+lblMessage.Caption=Message Text:
+
+
+[frmVars]
+frmVars.Caption=Variables
+
+
+[frmDlgAction]
+frmDlgAction.Caption=Action
+cmdOK.Caption=OK
+lblDefValue.Caption=Variable Value:
+lblDefVarName.Caption=Variable Name:
+lblDBname.Caption=Database:
+lblSQL.Caption=SQL Instruction:
+lblString1.Caption=String 1
+lblString2.Caption=String 2
+lblStringOperation.Caption=Operator
+lblStringResult.Caption=Save to Variable:
+lblMathResult.Caption=Save to Variable:
+lblMathOperation.Caption=Operator
+lblMathOp2.Caption=Operator 2
+lblMathOp1.Caption=Operator 1
+
+
+[frmDlgIf]
+frmDlgIf.Caption=Conditional Expression
+cmdOK.Caption=OK
+
+
+[frmStack]
+frmStack.Caption=Stack
+
+
+[frmDlgFunction]
+frmDlgFunction.Caption=Function
+cmdOK.Caption=OK
+lblPar2.Caption=Parameter 2:
+lblFuncName.Caption=Function Name:
+lblPar1.Caption=Parameter 1:
+lblResult.Caption=Save to Variable:
+
+
+[frmDlgInput]
+frmDlgInput.Caption=Input
+cmdOK.Caption=OK
+lblMessage.Caption=Prompt Text:
+lblVarName.Caption=Variable Name:
+
+
+[frmDlgWindow]
+frmDlgWindow.Caption=Window Editor
+cmdOK.Caption=OK
+fraEvents.Caption=Event
+lblFunc2.Caption=Right Click:
+lblFunc1.Caption=Left Click:
+fraProperties.Caption= Attribute
+lblName.Caption=Name:
+lblText.Caption=Title:
+cmdDelete.Caption=Delete
+
+
+[frm_mBox]
+frm_mBox.Caption=Message
+cmdOK.Caption=OK
+
+
+[frmDlgGeneral]
+frmDlgGeneral.Caption=Start Options
+cmdOK.Caption=OK
+lblExample.Caption=Example: a, b, c
+lblDescription.Caption=The area variable will be stored on the stack before the execution process, and the value will be saved when the process ends.
+lblLocalVars.Caption=Region Variable Name:
+
+
+[frmAbout]
+frmAbout.Caption=About
+lblUserName.Caption=FREEWARE Tool
+cmdOK.Caption=OK
+cmdSysInfo.Caption=System Information...
+Label1.Caption=Multi-lingual Version Copyright 2010-2019 by Hueyan Chen hueyan@ms2.hinet.net
+lblVersion.Caption=Version
+
+
+[frmMakeExecutable]
+frmMakeExecutable.Caption=Export to Create Executable File
+cmdGetStartFlow.Caption=..
+cmdCancel.Caption=Cancel
+cmdMake.Caption=Create
+lblStartUpFlow.Caption=Select Starting Flowchart File:
+
+
+[Strings]
+0001=Error loading flowchart example:
+0002=Error:
+0003=In the stack contains error data returned from IP:
+0004=In the stack contains error data returned from CS:
+0005=timerRunner_Timer() unknown action!:
+0006=timerRunner_Timer(). Generated an error:
+0007=Lack of operands:
+0008=No right parenthesis):
+0009=The parameter needs to be an integer:
+0010= FROM with error
+0011=Already connected!
+0012= TO with error
+0013=Two objects should be selected!
+0014=Stack is full and overflows - STACK OVERFLOW!
+0015=Stack is empty - STACK IS EMPTY!
+0016= All [.fpp] files used in this project (including functions)
+0017=.exe] and [
+0018=.ini] The same directory of files.
+0019=Please note:
+0020= need to be copied to [
+0021=No block selected!
+0022=Unable to edit!
+0023=Sorry! The editing function does not support functions:
+0024=Error! The code editor could not find:
+0025=Please stop the execution of the current process!
+0026=Already have YES and NO connected!
+0027=Please enter the link title text:
+0028=Two objects should be connected!
+0029=This is not a flowchart file!
+0030=Error loading:
+0031=Flowchart Project:
+0032= Not yet stored!
+0033=Do you want to save the changes?
+0034=Save changes?
+0035=Save file error:
+0036=Step by Step Exec
+0037=Delay
+0038=Incorrect function call - Unable to read parameters from the stack.
+0039=Input
+0040=The first comparison expression has an error!
+0041=The second comparison expression has an error!
+0042=The first comparison expression has an error!
+0043=The second comparison expression has an error!
+0044=Unable to load function:
+0045=The function is not connected!
+0046=The program was successfully terminated.
+0047=Function that cannot return a call
+0048=There is already a connected line!
+0049=Code:
+0050=Description:
+0051=Error code:
+0052 = too many right parentheses):
+0053=Error calculation formula, because the expression:
+0054= is a constant...
+0055=About
+0056=fChart Interpreter
+0057=variable:
+0058= - Not defined!
+0059=Unable to load function:
+0060=The object specification is currently not supported!
+0061=Unable to execute:
+0062=The properties of this window cannot be read!
+0063=object name:
+0064=The current window does not exist.
+0065=The attribute does not exist!
+0066=The properties of this window cannot be read!
+0067=This window does not exist.
+0068=The attribute could not be read!
+0069=Incorrect object definition:
+0070=Block:
+0071= - does not exist!
+0072= - No connection!
+0073= - not connected to:
+0074=Unable to delete connected objects.
+0075=Start
+0076=End
+0077=Output-LF
+0078=Output-NoLF
+0079=Input
+0080=Window
+0081=Current Var Value:
+0082=Previous Var Value:
+0083=None
+0084=Definition
+0085=Arithmetic
+0086=Strings
+0087=Error! Selected symbol not connector.
+0088=Error! Connection lines of the connector cannot converted to U-shaped line.
+0089=Error! The out line of connector is not L-shaped line.
+0090=Error! The in line of connector is not straight line.
+0091=Please enter offset of U-shaped line (at least 20)
+0092=U-shaped Connection
+0093=Connection line is not U-shaped line
+0094=STOP symbol cannot have out line

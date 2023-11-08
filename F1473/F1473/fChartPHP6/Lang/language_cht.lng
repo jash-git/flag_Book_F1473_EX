@@ -1,0 +1,287 @@
+ 
+[frmMain]
+fraToolBar3.Caption=刪除
+cmdDeleteLine.Caption=連接線　
+cmdDeleteBlock.Caption=區塊　
+chk_LOAD_GUI.Caption=載入 GUI
+fraToolBar2.Caption= 連接與編輯
+chkCONTINUED_CONNECTION.Caption=自動連接區塊　
+cmdEdit.Caption=編輯　
+cmdConnect.Caption=連接　
+fraDebug.Caption=流程圖直譯執行工具列
+cmdEditor.Caption=程式碼編輯器
+cmdStack.Caption=堆疊
+cmdVars.Caption=變數
+lblDelay.Caption=延遲:150
+mnuFile.Caption=檔案
+mnuNew.Caption=新增流程圖專案
+mnuLoad.Caption=載入流程圖專案...
+mnuExamplesMenu.Caption=流程圖專案範例
+mnuExample(0).Caption=第一個流程圖程式
+mnuExample(1).Caption=字串比較
+mnuExample(2).Caption=條件執行
+mnuExample(3).Caption=字串連接
+mnuExample(4).Caption=簡單迴圈 1
+mnuExample(5).Caption=簡單迴圈 2
+mnuExample(6).Caption=函數呼叫
+mnuExample(7).Caption=階層計算 (迴圈)
+mnuExample(8).Caption=階層計算 (遞迴)
+mnuExample(9).Caption=指數計算 (遞迴)
+mnuExample(10).Caption=測試螢幕捲動
+mnuExample(11).Caption=簡單視窗
+mnuExample(12).Caption=簡單的繪圖視窗
+mnuExample(13).Caption=網頁影像地圖工具
+mnuMakeExecutable.Caption=匯出建立執行檔...
+mnuSave.Caption=儲存流程圖專案
+mnuSaveAs.Caption=儲存流程圖專案成...
+mnuExit.Caption=結束
+mnuChangeShape.Caption=編輯物件
+mnuChangeBackColor.Caption=更改背景色彩
+mnuChangeTextColor.Caption=更改文字色彩
+mnuChangeBorderColor.Caption=更改框線色彩
+mnuChangeSize.Caption=更改尺寸
+mnuSetStraightLine.Caption=使用直線的連接線
+mnuSwitchFoldLineDirection.Caption=切換L型線的方向
+mnuSetUTypeLine.Caption=使用U型線連接
+mnuEditUTypeLine.Caption=編輯U型線的偏移量
+mnuConvertConnector2ULine.Caption=將連接點轉換成U型線
+mnuAddCaptionToLine.Caption=新增連接線標題文字
+mnuDelete.Caption=刪除物件
+mnuDeleteLine.Caption=刪除連接線
+mnuDeleteBlock.Caption=刪除區塊
+mnuHelp.Caption=說明
+mnuHelpToStudent.Caption=說明主題
+mnuAbout.Caption=關於
+mnuContextMenu.Caption=快顯功能表
+mnuCConnectBlock.Caption=連接區塊
+mnuCDeleteLine.Caption=刪除連接線
+mnuCDeleteBlock.Caption=刪除區塊
+mnuCSwitchFoldLineDirection.Caption=切換L型線的方向
+mnuCSetUTypeLine.Caption=使用U型線連接
+chkCONTINUED_CONNECTION.ToolTipText=自動連接
+chkPause.ToolTipText=暫停
+cmdNextStep.ToolTipText=逐步執行
+cmdStack.ToolTipText=顯示堆疊視窗
+cmdVars.ToolTipText=顯示變數視窗
+cmdScreen.ToolTipText=顯示命令提示字元視窗
+cmdEditor.ToolTipText=啟動程式碼編輯器
+cmdRun.ToolTipText=執行
+cmdStop.ToolTipText=停止
+cmdWindow.ToolTipText=視窗
+cmdFunction.ToolTipText=函數
+cmdIntersection.ToolTipText=連接點
+cmdJunction.ToolTipText=條件
+cmdOutput.ToolTipText=輸出
+cmdInput.ToolTipText=輸入
+cmdAction.ToolTipText=動作
+cmdEnd.ToolTipText=結束
+cmdStart.ToolTipText=開始
+
+
+[frmSize]
+frmSize.Caption=更改尺寸
+Label2.Caption=高度:
+Label1.Caption=寬度:
+
+
+[frmOffset]
+frmOffset.Caption=編輯偏移量
+Label1.Caption=偏移量:
+chkClockwise.Caption=順時鐘
+
+
+[frmScreen]
+frmScreen.Caption=命令提示字元
+
+ 
+[frmDlgOutput]
+frmDlgOutput.Caption=輸出
+chkNewLine.Caption=不換行
+cmdOK.Caption=確定
+lblVarName.Caption=變數名稱:
+lblMessage.Caption=訊息文字:
+
+ 
+[frmVars]
+frmVars.Caption=變數
+
+ 
+[frmDlgAction]
+frmDlgAction.Caption=動作
+cmdOK.Caption=確定
+lblDefValue.Caption=變數值:
+lblDefVarName.Caption=變數名稱:
+lblDBname.Caption=資料庫:
+lblSQL.Caption=SQL指令:
+lblString1.Caption=字串 1
+lblString2.Caption=字串 2
+lblStringOperation.Caption=運算子
+lblStringResult.Caption=儲存至變數:
+lblMathResult.Caption=儲存至變數:
+lblMathOperation.Caption=運算子
+lblMathOp2.Caption=運算元 2
+lblMathOp1.Caption=運算元 1
+
+ 
+[frmDlgIf]
+frmDlgIf.Caption=條件運算式
+cmdOK.Caption=確定
+
+ 
+[frmStack]
+frmStack.Caption=堆疊
+
+ 
+[frmDlgFunction]
+frmDlgFunction.Caption=函數
+cmdOK.Caption=確定
+lblPar2.Caption=參數2:
+lblFuncName.Caption=函數名稱:
+lblPar1.Caption=參數1:
+lblResult.Caption=儲存至變數:
+
+ 
+[frmDlgInput]
+frmDlgInput.Caption=輸入
+cmdOK.Caption=確定
+lblMessage.Caption=提示文字:
+lblVarName.Caption=變數名稱:
+
+ 
+[frmDlgWindow]
+frmDlgWindow.Caption=視窗編輯器
+cmdOK.Caption=確定
+fraEvents.Caption=事件
+lblFunc2.Caption=右Click:
+lblFunc1.Caption=左Click:
+fraProperties.Caption= 屬性
+lblName.Caption=名稱: 
+lblText.Caption=標題: 
+cmdDelete.Caption=刪除
+
+ 
+[frm_mBox]
+frm_mBox.Caption=訊息
+cmdOK.Caption=確定
+
+
+[frmDlgGeneral]
+frmDlgGeneral.Caption=開始選項
+cmdOK.Caption=確定
+lblExample.Caption=範例:   a,b,c 
+lblDescription.Caption=區域變數會在執行流程前先儲存在堆疊, 流程結束就回存其值.
+lblLocalVars.Caption=區域變數名稱:
+
+ 
+[frmAbout]
+frmAbout.Caption=關於
+lblUserName.Caption=FREEWARE免費軟體
+cmdOK.Caption=確定
+cmdSysInfo.Caption=系統資訊...
+Label1.Caption=多國語言版Copyright 2010-2019 by 陳會安  hueyan@ms2.hinet.net
+lblVersion.Caption=版本
+
+
+[frmMakeExecutable]
+frmMakeExecutable.Caption=匯出建立執行檔
+cmdGetStartFlow.Caption=...
+cmdCancel.Caption=取消
+cmdMake.Caption=建立
+lblStartUpFlow.Caption=選擇開始的流程圖專案檔:
+
+
+[Strings]
+0001=錯誤載入流程圖範例: 
+0002=錯誤: 
+0003=在堆疊包含錯誤資料從IP傳回: 
+0004=在堆疊包含錯誤資料從CS傳回: 
+0005=timerRunner_Timer()未知動作!: 
+0006=timerRunner_Timer(). 產生錯誤: 
+0007=缺少運算元 :
+0008=沒有右括號 ) : 
+0009=參數需要是整數 : 
+0010= 有錯誤的 FROM
+0011=已經連接!
+0012= 有錯誤的 TO
+0013=兩個物件應該被選擇!
+0014=堆疊已滿產生溢位 - STACK OVERFLOW!
+0015=堆疊是空的 - STACK IS EMPTY!
+0016=  所有在此專案中使用的[.fpp]檔案 (包含函數) 
+0017=.exe] 和 [
+0018=.ini]檔案的同目錄.
+0019=請注意: 
+0020= 需要複製至 [
+0021=沒有選擇區塊!
+0022=無法編輯!
+0023=對不起! 編輯功能並不支援函數: 
+0024=錯誤! 程式碼編輯器找不到:
+0025=請先停止目前流程的執行!
+0026=已經有YES和NO連接!
+0027=請輸入連接線標題文字: 
+0028=兩個物件應該被連接!
+0029=這並不是流程圖檔案!
+0030=錯誤載入: 
+0031=流程圖專案: 
+0032= 尚未儲存!
+0033=是否儲存變更?
+0034=儲存變更?
+0035=儲存檔案錯誤: 
+0036=逐步執行
+0037=延遲
+0038=錯誤的函數呼叫 - 無法從堆疊讀取參數.
+0039=輸入
+0040=第1個比較運算式有錯誤!
+0041=第2個比較運算式有錯誤!
+0042=第1個比較運算式有錯誤!
+0043=第2個比較運算式有錯誤!
+0044=無法載入函數: 
+0045=函數沒有連接!
+0046=程式成功終止.
+0047=無法傳回呼叫的函數
+0048=已經有一條出去的連接線!
+0049=程式碼: 
+0050=描述: 
+0051=錯誤代碼: 
+0052=太多右括號 ) : 
+0053=錯誤計算運算式, 因為運算式 : 
+0054= 是常數...
+0055=關於 
+0056=fChart流程圖直譯教學工具
+0057=變數: 
+0058= - 沒有定義!
+0059=無法載入函數: 
+0060=物件指定敘述目前尚未支援!
+0061=無法執行: 
+0062=此視窗的屬性無法讀取!
+0063=物件名稱: 
+0064=並不存在目前的視窗.
+0065=屬性不存在!
+0066=此視窗的屬性無法讀取!
+0067=並不存在此視窗.
+0068=屬性無法讀取!
+0069=錯誤的物件定義: 
+0070=區塊: 
+0071= - 不存在!
+0072= - 沒有連接!
+0073= - 沒有連接至: 
+0074=無法刪除連接的物件.
+0075=開始
+0076=結束
+0077=輸出-換行
+0078=輸出-不換行
+0079=輸入
+0080=視窗
+0081=目前變數值:
+0082=之前變數值:
+0083=沒有邏輯運算子
+0084=定義變數
+0085=算術運算子
+0086=字串運算子
+0087=錯誤! 選取的符號不是連接點
+0088=錯誤! 連接點的連接線無法轉成U型線
+0089=錯誤! 連接點出去的連接線不是L型線
+0090=錯誤! 連接點進入的連接線不是直線
+0091=請輸入U型線的位移量(至少20)
+0092=使用U型線連接
+0093=連接線不是U型連接線
+0094=結束符號不能有出去的連接線

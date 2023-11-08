@@ -1,0 +1,354 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="main_block" id="2" inline="false" x="36" y="35">
+    <statement name="STACK">
+      <block type="variables_declare" id="6" inline="true">
+        <field name="TYPES">int</field>
+        <field name="VAR">temp</field>
+        <next>
+          <block type="variables_declare" id="55" inline="true">
+            <field name="TYPES">int</field>
+            <field name="VAR">i</field>
+            <next>
+              <block type="variables_declare" id="59" inline="true">
+                <field name="TYPES">int</field>
+                <field name="VAR">j</field>
+                <value name="VALUE">
+                  <block type="math_number" id="63">
+                    <field name="NUM">6</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="variables_array_declare" id="13" inline="true">
+                    <field name="TYPES">int</field>
+                    <field name="VAR">data</field>
+                    <value name="LENGTH_1">
+                      <block type="math_number" id="14">
+                        <field name="NUM">6</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="variables_array_set" id="21" inline="true">
+                        <field name="VAR">data</field>
+                        <value name="LENGTH_1">
+                          <block type="math_number" id="22">
+                            <field name="NUM">0</field>
+                          </block>
+                        </value>
+                        <value name="VALUE">
+                          <block type="math_number" id="26">
+                            <field name="NUM">11</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="variables_array_set" id="27" inline="true">
+                            <field name="VAR">data</field>
+                            <value name="LENGTH_1">
+                              <block type="math_number" id="28">
+                                <field name="NUM">1</field>
+                              </block>
+                            </value>
+                            <value name="VALUE">
+                              <block type="math_number" id="29">
+                                <field name="NUM">12</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="variables_array_set" id="30" inline="true">
+                                <field name="VAR">data</field>
+                                <value name="LENGTH_1">
+                                  <block type="math_number" id="31">
+                                    <field name="NUM">2</field>
+                                  </block>
+                                </value>
+                                <value name="VALUE">
+                                  <block type="math_number" id="32">
+                                    <field name="NUM">10</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="variables_array_set" id="33" inline="true">
+                                    <field name="VAR">data</field>
+                                    <value name="LENGTH_1">
+                                      <block type="math_number" id="34">
+                                        <field name="NUM">3</field>
+                                      </block>
+                                    </value>
+                                    <value name="VALUE">
+                                      <block type="math_number" id="35">
+                                        <field name="NUM">15</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="variables_array_set" id="36" inline="true">
+                                        <field name="VAR">data</field>
+                                        <value name="LENGTH_1">
+                                          <block type="math_number" id="37">
+                                            <field name="NUM">4</field>
+                                          </block>
+                                        </value>
+                                        <value name="VALUE">
+                                          <block type="math_number" id="38">
+                                            <field name="NUM">1</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="variables_array_set" id="39" inline="true">
+                                            <field name="VAR">data</field>
+                                            <value name="LENGTH_1">
+                                              <block type="math_number" id="40">
+                                                <field name="NUM">5</field>
+                                              </block>
+                                            </value>
+                                            <value name="VALUE">
+                                              <block type="math_number" id="41">
+                                                <field name="NUM">2</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="controls_whileUntil" id="68" inline="false">
+                                                <field name="MODE">WHILE</field>
+                                                <value name="BOOL">
+                                                  <block type="logic_compare" id="78" inline="true">
+                                                    <field name="OP">GT</field>
+                                                    <value name="A">
+                                                      <block type="variables_get" id="82">
+                                                        <field name="VAR">j</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="B">
+                                                      <block type="math_number" id="86">
+                                                        <field name="NUM">1</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <statement name="DO">
+                                                  <block type="controls_for" id="51" inline="true">
+                                                    <field name="VAR">i</field>
+                                                    <value name="FROM">
+                                                      <block type="math_number" id="106">
+                                                        <field name="NUM">0</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="TO">
+                                                      <block type="math_arithmetic" id="110" inline="true">
+                                                        <field name="OP">MINUS</field>
+                                                        <value name="A">
+                                                          <block type="variables_get" id="114">
+                                                            <field name="VAR">j</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="B">
+                                                          <block type="math_number" id="118">
+                                                            <field name="NUM">2</field>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                    <value name="BY">
+                                                      <block type="math_number" id="122">
+                                                        <field name="NUM">1</field>
+                                                      </block>
+                                                    </value>
+                                                    <statement name="DO">
+                                                      <block type="controls_if" id="127" inline="false">
+                                                        <value name="IF0">
+                                                          <block type="logic_compare" id="133" inline="true">
+                                                            <field name="OP">LT</field>
+                                                            <value name="A">
+                                                              <block type="variables_array_get" id="140" inline="true">
+                                                                <field name="VAR">data</field>
+                                                                <value name="LENGTH_1">
+                                                                  <block type="math_arithmetic" id="145" inline="true">
+                                                                    <field name="OP">ADD</field>
+                                                                    <value name="A">
+                                                                      <block type="variables_get" id="149">
+                                                                        <field name="VAR">i</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <value name="B">
+                                                                      <block type="math_number" id="153">
+                                                                        <field name="NUM">1</field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                            <value name="B">
+                                                              <block type="variables_array_get" id="160" inline="true">
+                                                                <field name="VAR">data</field>
+                                                                <value name="LENGTH_1">
+                                                                  <block type="variables_get" id="165">
+                                                                    <field name="VAR">i</field>
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <statement name="DO0">
+                                                          <block type="variables_set" id="169" inline="true">
+                                                            <field name="VAR">temp</field>
+                                                            <value name="VALUE">
+                                                              <block type="variables_array_get" id="170" inline="true">
+                                                                <field name="VAR">data</field>
+                                                                <value name="LENGTH_1">
+                                                                  <block type="math_arithmetic" id="171" inline="true">
+                                                                    <field name="OP">ADD</field>
+                                                                    <value name="A">
+                                                                      <block type="variables_get" id="172">
+                                                                        <field name="VAR">i</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <value name="B">
+                                                                      <block type="math_number" id="173">
+                                                                        <field name="NUM">1</field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                            <next>
+                                                              <block type="variables_array_set" id="180" inline="true">
+                                                                <field name="VAR">data</field>
+                                                                <value name="LENGTH_1">
+                                                                  <block type="math_arithmetic" id="182" inline="true">
+                                                                    <field name="OP">ADD</field>
+                                                                    <value name="A">
+                                                                      <block type="variables_get" id="183">
+                                                                        <field name="VAR">i</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <value name="B">
+                                                                      <block type="math_number" id="184">
+                                                                        <field name="NUM">1</field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="VALUE">
+                                                                  <block type="variables_array_get" id="185" inline="true">
+                                                                    <field name="VAR">data</field>
+                                                                    <value name="LENGTH_1">
+                                                                      <block type="variables_get" id="186">
+                                                                        <field name="VAR">i</field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="variables_array_set" id="193" inline="true">
+                                                                    <field name="VAR">data</field>
+                                                                    <value name="LENGTH_1">
+                                                                      <block type="variables_get" id="195">
+                                                                        <field name="VAR">i</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <value name="VALUE">
+                                                                      <block type="variables_get" id="199">
+                                                                        <field name="VAR">temp</field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </statement>
+                                                      </block>
+                                                    </statement>
+                                                    <next>
+                                                      <block type="variables_set" id="90" inline="true">
+                                                        <field name="VAR">j</field>
+                                                        <value name="VALUE">
+                                                          <block type="math_arithmetic" id="94" inline="true">
+                                                            <field name="OP">MINUS</field>
+                                                            <value name="A">
+                                                              <block type="variables_get" id="98">
+                                                                <field name="VAR">j</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="B">
+                                                              <block type="math_number" id="102">
+                                                                <field name="NUM">1</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </statement>
+                                                <next>
+                                                  <block type="controls_for" id="204" inline="true">
+                                                    <field name="VAR">i</field>
+                                                    <value name="FROM">
+                                                      <block type="math_number" id="208">
+                                                        <field name="NUM">0</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="TO">
+                                                      <block type="math_number" id="212">
+                                                        <field name="NUM">5</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="BY">
+                                                      <block type="math_number" id="216">
+                                                        <field name="NUM">1</field>
+                                                      </block>
+                                                    </value>
+                                                    <statement name="DO">
+                                                      <block type="library_stdio_printf" id="222" inline="false">
+                                                        <mutation printadd="1"></mutation>
+                                                        <value name="VAR0">
+                                                          <block type="variables_array_get" id="229" inline="true">
+                                                            <field name="VAR">data</field>
+                                                            <value name="LENGTH_1">
+                                                              <block type="variables_get" id="234">
+                                                                <field name="VAR">i</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <value name="VAR1">
+                                                          <block type="library_stdio_text" id="243">
+                                                            <field name="TEXT"> </field>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </statement>
+                                                    <next>
+                                                      <block type="library_stdio_printf" id="249" inline="false">
+                                                        <value name="VAR0">
+                                                          <block type="library_stdio_newLine" id="255"></block>
+                                                        </value>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>

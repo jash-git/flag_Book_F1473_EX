@@ -1,0 +1,44 @@
+<Project>
+  <Name>CompanyProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>SalesDiagram</Name>
+    <Language>Java</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Salesperson</Name>
+        <Access>Public</Access>
+        <Location left="73" top="29" />
+        <Size width="209" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String salesNo</Member>
+        <Member type="Field">private String name</Member>
+        <Member type="Method">public void setOrder(Order myOrder)</Member>
+        <Member type="Method">public void printSalesperson()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Order</Name>
+        <Access>Public</Access>
+        <Location left="391" top="29" />
+        <Size width="242" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String orderNo</Member>
+        <Member type="Field">private boolean status</Member>
+        <Member type="Method">public void setPerson(Salesperson myPerson)</Member>
+        <Member type="Method">public String getNo()</Member>
+        <Member type="Method">public void printOrder()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="0" second="1">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Bidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>
